@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&family=Josefin+Sans:wght@500&family=Space+Grotesk:wght@500&family=Zeyada&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 1440px;
+  height: min-content;
+  overflow: hidden;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
