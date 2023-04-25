@@ -9,7 +9,7 @@ img {
 }
 
 .formContainer {
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: center;
 }
@@ -172,4 +172,34 @@ p,
 
 .errorMessage{
     color: #ff0000;
+}
+
+.completeContainer{
+  position: absolute;
+  right: 350px;
+  top: 220px;
+  text-align: center;
+}
+
+.thankyou{
+  color: hsl(278, 68%, 11%);
+  margin-top: 10px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.detailsAdded{
+  margin: 8px 3px 0px 0px;
+  padding: 0px;
+  color:  hsl(278, 68%, 11%);
+  font-size: 13px;
+}
+
+.continue{
+    background-color: hsl(278, 68%, 11%);
+  color: #fff;
+  margin-top: 10px;
+  padding: 8px 70px;
+  cursor: pointer;
+  border-radius: 4px;
 }
